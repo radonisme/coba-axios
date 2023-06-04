@@ -5,4 +5,5 @@
 2. Gunakan axios dengan method get untuk mengambil isi API 
 3. Pakai terminal untuk melihat hasilnya
 
-- btw pakai prettier di express agak gimana..
+Btw pakai prettier di express agak gimana..
+gitu loh
