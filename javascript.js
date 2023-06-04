@@ -9,18 +9,17 @@ var url = 'https://reqres.in/api/users';
 //   .then((data) => console.log(data.data))
 //   .catch((error) => console.log('Error: ' + error));
 
-// Pakai Axios
-// axios
-//   .get(url + '/1')
-//   .then((data) => console.log(data.data))
-//   .catch((error) => console.log('error: ' + error));
+// Methode Get
+axios.get(url + '/1')
+  .then((data) => console.log(data.data))
+  .catch((error) => console.log('error: ' + error));
 
-axios
-  .post(url, {
-    nama: 'Dwi',
-    umur: '20',
-  })
-  .then((data) => console.log(data));
+// Method Post
+// axios.post(url, {
+//     nama: 'Dwi',
+//     umur: '20',
+//   })
+//   .then((data) => console.log(data));
 
 // axios
 //   .get(url + '/x')
